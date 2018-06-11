@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Birthday Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Bootstrap css-->
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/birthday.css">
+
+</head>
+<body>
+    
+     <div class="container">
+         
+          <div class="row">
+                 
+             <div class="col-md-2">
+                 
+             </div>
+
+             <div class="col-md-8" id="guest">
+                    <form class="form-vertical">
+                    
+           <div class="form-group">
+               
+               <h2 style="text-align: center">GUEST LIST FORM</h2>
+                  <br>
+
+               <label for="lastname">Lastname</label>
+
+                  <div class="input-group">
+                  <div class="input-group-addon">
+                      <i class="glyphicon glyphicon-user"></i>
+                  </div>
+
+                <input type="text" name="lastname" id="lastname" class="form-control" placeholder="enter your lastname">
+           </div>
+               <br>
+
+              <label for="firstname">FirstName</label>
+
+                  <div class="input-group">
+                  <div class="input-group-addon">
+                      <i class="glyphicon glyphicon-user"></i>
+                  </div>
+
+                <input type="text" name="firstname" id="firstname" class="form-control" placeholder="enter your firstname">
+           </div>
+              <br>
+                 <label>Email Address</label>
+                    <div class="input-group">
+                 <div class="input-group-addon">
+                     <i class="glyphicon glyphicon-envelope"></i>
+                 </div>
+
+                <input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="enter valid email">
+                <div class="input-group-addon">.com</div>
+                </div>
+                  <br>
+
+              <label>Phone Number</label>
+                    <div class="input-group">
+                 <div class="input-group-addon">
+                     <i class="glyphicon glyphicon-earphone"></i>
+                 </div>
+
+                <input type="number" name="phonenumber" id="phonenumber" class="form-control" placeholder="enter phone number">
+              
+                </div>
+                <br>
+
+                <label> Gender </label>
+                <div>
+                <input type="radio" name="gender" id="male" value="male"/> Male
+                  <input type="radio" name="gender" id="female" value="female"/> Female
+                
+              <br> </br>
+                 </div>
+
+                 <label> Gift Item </label>
+                <div>
+            <input type="checkbox" name="giftitem" id="giftitem1" value="Car" /> Car
+              <input type="checkbox" name="giftitem" id="giftitem2" value="Blender" /> Blender
+            <input type="checkbox" name="giftitem" id="giftitem3" value="Shoe" /> Shoe
+             <input type="checkbox" name="giftitem" id="giftitem4" value="Cloth" /> Cloth
+             <input type="checkbox" name="giftitem" id="giftitem5" value="Cash" /> Cash
+              </div>
+                 <br>
+
+              <label id="state"> State of Residence</label>
+              <div>
+               <select  name="state" id="state"> 
+                  <option value="">Choose State </option>
+                  <option value="1">Abia </option>
+                  <option value="2">Anambra </option>
+                  <option value="3">Bauchi </option>
+                   <option value="4">Bayelsa </option>
+                   <option value="5">Cross RIver </option>
+                   <option value="6">Enugu </option>
+                   <option value="7">F.C.T </option>
+                  <option value="8">Imo </option>
+                  <option value="9"> Lagos </option>
+                  <option value="10"> Ogun </option>
+                  <option value="11"> Rivers </option>
+                 <option value="12"> Zamfara </option>
+              </select>        
+             </div>
+              <br>
+
+             <div id="enter">
+                <button type="submit" class="btn btn-maroon">ENTER</button>
+                <button type="reset" class="btn btn-maroon">Clear</button>
+              </div>
+
+             </div>
+
+             <div class="col-md-2">
+                 
+             </div>
+
+          </div>
+       </form>
+     </div>
+
+    </div>
+
+
+
+<script type="text/javascript" src="bootstrap/js/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+
+body{
+	background-image: url("../images/rose.jpg");
+	background-size: cover;
+}
+
+#guest{
+
+   margin-top:90px;
+   color:maroon;
+   font-size:18px;
+
+}
+
